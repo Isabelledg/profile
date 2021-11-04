@@ -1,0 +1,75 @@
+h1 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, p{
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#link {
+font-weight: bold;
+}
+
+#link:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background-size: contain;
+  padding: 40px;
+  border-radius: 9px;
+  margin: 20px 20px;
+  text-align: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 0px 10px 0 white;
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+  .btn-blue {
+    color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+body {
+  background-image: url("images/backgroundimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#social {
+  list-style: none;
+}
+
+#social a {
+  color: #000;
+  display:inline;
+  margin: 0 15px;
+
+  transition: 0.4s;
+}
+
+#social a:hover {
+  color: white;
+}
+/* #facebook, #linkedin, #github{
+  width: 15%;
+} */
